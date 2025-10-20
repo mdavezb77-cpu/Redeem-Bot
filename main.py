@@ -5,9 +5,9 @@ from telebot.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQu
 from datetime import datetime, timedelta
 
 # Bot token
-BOT_TOKEN = '7217012373:AAHFRCmGs10I0jFE3qCHAjS4db3eE6ewn_c'
-OWNER_USER_ID = 7303810912
-PROOF_CHANNEL_ID = -1002113563800 #Replace With The Chat Id Of The Channel Which Will Be Proof Channel
+BOT_TOKEN = '8478533781:AAGL6D5oJTxIDLuXpI1l8Y8a9I2LjW1B76k'
+OWNER_USER_ID = 6033503442
+PROOF_CHANNEL_ID = -1002837315173 #Replace With The Chat Id Of The Channel Which Will Be Proof Channel
 FORWARD_CHANNEL_IDS = [-1002224203739, -1001974696244, -1002113563800] #Replace With The Ids Of The Channel To Be Posted
 
 bot = telebot.TeleBot(BOT_TOKEN)
@@ -400,3 +400,4 @@ def broadcast_message(message):
 # Start the bot
 print("Bot is running...")
 bot.polling()
+
