@@ -8,7 +8,7 @@ from datetime import datetime, timedelta
 BOT_TOKEN = '7217012373:AAHFRCmGs10I0jFE3qCHAjS4db3eE6ewn_c'
 OWNER_USER_ID = 7303810912
 PROOF_CHANNEL_ID = -1002113563800 #Replace With The Chat Id Of The Channel Which Will Be Proof Channel
-FORWARD_CHANNEL_IDS = [-1002224203739, -1001974696244, -1002113563800] #Replace With The Ids Of The Channel To Be Posted
+FORWARD_CHANNEL_IDS = [-1003111217975,-1003182734272,-1003183450037 ] #Replace With The Ids Of The Channel To Be Posted
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
@@ -400,3 +400,4 @@ def broadcast_message(message):
 # Start the bot
 print("Bot is running...")
 bot.polling()
+
