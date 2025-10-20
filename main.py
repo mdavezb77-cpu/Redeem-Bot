@@ -400,3 +400,4 @@ def broadcast_message(message):
 # Start the bot
 print("Bot is running...")
 bot.polling()
+
